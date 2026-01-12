@@ -20,7 +20,7 @@ public class Player : MonoBehaviour
 
     private void Update()
     {
-        // don't forget about Time.deltaTime
+        
         if ((Input.GetKey(KeyCode.W) ))
         {
             _playerTransform.Translate(Vector2.up*Time.deltaTime);
